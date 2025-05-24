@@ -26,27 +26,15 @@
       text-align: center;
     }
     header img {
-      max-width: 150px;
-      margin-bottom: 1rem;
-    }
-    header h1 {
-      font-size: 4rem;
-    }
-    header p {
-      font-size: 1.5rem;
-      margin: 1rem 0;
-    }
-    header a {
-      background: #007BFF;
-      color: white;
-      padding: 0.75rem 1.5rem;
-      border-radius: 5px;
-      text-decoration: none;
+      max-width: 250px;
     }
     section {
       padding: 4rem 2rem;
       max-width: 1100px;
       margin: auto;
+    }
+    h2 {
+      margin-bottom: 1rem;
     }
     .tours, .testimonials {
       display: grid;
@@ -95,9 +83,18 @@
       color: #ddd;
       margin: 0 0.5rem;
     }
+    .left-align {
+      text-align: left;
+    }
+    .social-links a {
+      font-size: 1.2rem;
+      margin-right: 1rem;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
+
   <header>
     <div class="header-overlay">
       <div class="header-content">
@@ -106,75 +103,73 @@
     </div>
   </header>
 
-  <section id="about">
+  <section id="about" class="left-align">
     <h2>About Us</h2>
     <p>Majestic Global Tours is a premier travel and tours provider offering unforgettable experiences around the globe. With decades of service, we are committed to delivering high-quality and safe travel solutions for all your adventure needs.</p>
   </section>
 
-
   <section id="tours">
-  <h2>Our Tour Packages</h2>
-  <div class="tours">
-    <div class="tour">
-      <img src="images/citytour.jpg" alt="City Tour" />
-      <h3>City Highlights</h3>
-      <p>Experience the best landmarks and culture with our guided city tours.</p>
+    <h2>Our Tour Packages</h2>
+    <div class="tours">
+      <div class="tour">
+        <img src="images/citytour.jpg" alt="City Tour" />
+        <h3>City Highlights</h3>
+        <p>Experience the best landmarks and culture with our guided city tours.</p>
+      </div>
+      <div class="tour">
+        <img src="images/beaches.jpg" alt="Beach Tour" />
+        <h3>Beach Getaways</h3>
+        <p>Relax on pristine beaches with luxurious accommodations and activities.</p>
+      </div>
+      <div class="tour">
+        <img src="images/adventuretrip.jpg" alt="Adventure Tour" />
+        <h3>Adventure Trips</h3>
+        <p>Thrilling adventures including hiking, rafting, and jungle safaris.</p>
+      </div>
+      <div class="tour">
+        <img src="images/darjeeling.jpg" alt="Darjeeling Tour" />
+        <h3>Darjeeling</h3>
+        <p>Enjoy the breathtaking views of tea gardens and the Himalayas.</p>
+      </div>
+      <div class="tour">
+        <img src="images/himachal.jpg" alt="Himachal Pradesh Tour" />
+        <h3>Himachal Pradesh</h3>
+        <p>Explore the snow-covered valleys, temples, and vibrant towns of Himachal.</p>
+      </div>
+      <div class="tour">
+        <img src="images/kashmir.jpg" alt="Kashmir Tour" />
+        <h3>Kashmir</h3>
+        <p>Discover the 'Paradise on Earth' with serene lakes and stunning mountains.</p>
+      </div>
+      <div class="tour">
+        <img src="images/chardhaam.jpg" alt="Char Dham Yatra" />
+        <h3>Char Dham</h3>
+        <p>Embark on a spiritual journey through India's sacred Char Dham pilgrimage circuit.</p>
+      </div>
+      <div class="tour">
+        <img src="images/andaman.jpg" alt="Andaman and Nicobar Islands" />
+        <h3>Andaman and Nicobar Islands</h3>
+        <p>Crystal clear waters, coral reefs, and tropical escapes await you.</p>
+      </div>
+      <div class="tour">
+        <img src="images/thailand.jpg" alt="Thailand Tour" />
+        <h3>Thailand</h3>
+        <p>Enjoy Thai culture, cuisine, beaches, and vibrant nightlife.</p>
+      </div>
+      <div class="tour">
+        <img src="images/singapore.jpg" alt="Singapore Tour" />
+        <h3>Singapore</h3>
+        <p>Modern architecture, theme parks, and cultural neighborhoods blend beautifully here.</p>
+      </div>
+      <div class="tour">
+        <img src="images/dubai.jpg" alt="Dubai Tour" />
+        <h3>Dubai</h3>
+        <p>Experience luxury shopping, desert safaris, and skyscraping adventures in Dubai.</p>
+      </div>
     </div>
-    <div class="tour">
-      <img src="images/beaches.jpg" alt="Beach Tour" />
-      <h3>Beach Getaways</h3>
-      <p>Relax on pristine beaches with luxurious accommodations and activities.</p>
-    </div>
-    <div class="tour">
-      <img src="images/adventuretrip.jpg" alt="Adventure Tour" />
-      <h3>Adventure Trips</h3>
-      <p>Thrilling adventures including hiking, rafting, and jungle safaris.</p>
-    </div>
-    <div class="tour">
-      <img src="images/darjeeling.jpg" alt="Darjeeling Tour" />
-      <h3>Darjeeling</h3>
-      <p>Enjoy the breathtaking views of tea gardens and the Himalayas.</p>
-    </div>
-    <div class="tour">
-      <img src="images/himachal.jpg" alt="Himachal Pradesh Tour" />
-      <h3>Himachal Pradesh</h3>
-      <p>Explore the snow-covered valleys, temples, and vibrant towns of Himachal.</p>
-    </div>
-    <div class="tour">
-      <img src="images/kashmir.jpg" alt="Kashmir Tour" />
-      <h3>Kashmir</h3>
-      <p>Discover the 'Paradise on Earth' with serene lakes and stunning mountains.</p>
-    </div>
-    <div class="tour">
-      <img src="images/chardhaam.jpg" alt="Char Dham Yatra" />
-      <h3>Char Dham</h3>
-      <p>Embark on a spiritual journey through India's sacred Char Dham pilgrimage circuit.</p>
-    </div>
-    <div class="tour">
-      <img src="images/andaman.jpg" alt="Andaman and Nicobar Islands" />
-      <h3>Andaman and Nicobar Islands</h3>
-      <p>Crystal clear waters, coral reefs, and tropical escapes await you.</p>
-    </div>
-    <div class="tour">
-      <img src="images/thailand.jpg" alt="Thailand Tour" />
-      <h3>Thailand</h3>
-      <p>Enjoy Thai culture, cuisine, beaches, and vibrant nightlife.</p>
-    </div>
-    <div class="tour">
-      <img src="images/singapore.jpg" alt="Singapore Tour" />
-      <h3>Singapore</h3>
-      <p>Modern architecture, theme parks, and cultural neighborhoods blend beautifully here.</p>
-    </div>
-    <div class="tour">
-      <img src="images/dubai.jpg" alt="Dubai Tour" />
-      <h3>Dubai</h3>
-      <p>Experience luxury shopping, desert safaris, and skyscraping adventures in Dubai.</p>
-    </div>
-  </div>
-</section>
+  </section>
 
-
-  <section id="gallery">
+  <section id="gallery" class="left-align">
     <h2>Gallery</h2>
     <div class="gallery">
       <img src="images/tourbus.jpg" alt="Tour Image 1" />
@@ -196,33 +191,20 @@
     </div>
   </section>
 
-
-<section id="contact">
-  <h2>Contact Us</h2>
-  <p>Email: majesticgt@outlook.com | Phone: +91 88269 04620</p>
-  <p>Mantra Moments, Dehu Alandi Road, Moshi, Pune</p>
-
-  <div style="margin-top: 1rem; font-size: 1.5rem;">
-    <a href="https://wa.me/918826904620" target="_blank" style="margin-right: 1rem; text-decoration: none;">
-      📱 WhatsApp
-    </a>
-    <a href="https://www.instagram.com/majestic_global_tour" target="_blank" style="margin-right: 1rem; text-decoration: none;">
-      📸 Instagram
-    </a>
-    <a href="https://www.facebook.com/share/1ByUoKXFm9/?mibextid=wwXIfr" target="_blank" style="text-decoration: none;">
-      👍 Facebook
-    </a>
-  </div>
-</section>
-
+  <section id="contact" class="left-align">
+    <h2>Contact Us</h2>
+    <p>Email: majesticgt@outlook.com | Phone: +91 88269 04620</p>
+    <p>Mantra Moments, Dehu Alandi Road, Moshi, Pune</p>
+    <div class="social-links" style="margin-top: 1rem;">
+      <a href="https://wa.me/918826904620" target="_blank">📱 WhatsApp</a>
+      <a href="https://www.instagram.com/majestic_global_tour" target="_blank">📸 Instagram</a>
+      <a href="https://www.facebook.com/share/1ByUoKXFm9/?mibextid=wwXIfr" target="_blank">👍 Facebook</a>
+    </div>
+  </section>
 
   <footer>
     <p>&copy; 2025 Majestic Global Tours</p>
-    <div>
-      <a href="#">Facebook</a>
-      <a href="#">Instagram</a>
-      <a href="#">Twitter</a>
-    </div>
   </footer>
+
 </body>
 </html>
